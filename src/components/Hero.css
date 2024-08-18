@@ -14,8 +14,7 @@
     position: relative;
 }
 .background-video {
-    background-attachment: fixed;
-    position: absolute;
+    position: fixed;
     top: 50%;
     left: 50%;
     width: 100%;
@@ -80,16 +79,16 @@
 
 
 .header h1 {
-    animation: slideInLeft .5s ease-out 0s;
+    animation: slideInLeft .3s ease-in 0s;
 
 }
 
 .header h4 {
-    animation: slideInDown .5s ease-out .3s;
+    animation: slideInDown .3s ease-in .2s;
     animation-fill-mode: backwards;
 }
 
 .fade {
-    animation: fadeIn .5s ease 0 ;
+    animation: fadeIn .4s ease-in 0 ;
 }
 
